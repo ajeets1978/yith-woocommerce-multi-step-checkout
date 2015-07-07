@@ -43,7 +43,7 @@ if ( ! class_exists( 'YITH_Multistep_Checkout_Admin' ) ) {
         /**
          * @var bool Show the premium landing page
          */
-        public $show_premium_landing = true;
+        public $show_premium_landing = false;
 
          /**
          * @var string Official plugin documentation
