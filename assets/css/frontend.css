@@ -1,0 +1,50 @@
+/* YITH WooCommerce Multi Step Checkout */
+
+#form_actions {
+    text-align: right;
+}
+
+#form_actions input.button.alt.prev {
+    margin-right: 5px;
+    display: none;
+}
+
+form.checkout.woocommerce-checkout {
+    margin-bottom: 15px;
+}
+
+#customer_shipping_details,
+#order_review,
+#payment,
+#customer_billing_details.not-logged-in,
+#checkout_coupon {
+    display: none;
+}
+
+#checkout_timeline {
+    text-align: center;
+    list-style: none;
+}
+
+#checkout_timeline li.active {
+    font-weight: bold;
+}
+
+#checkout_timeline li {
+    transition: all 0.5s ease;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+#checkout_timeline li:not(:last-child):after {
+    content: "/";
+    display: inline-block;
+    margin: 0 5px;
+    font-weight: normal;
+}
+
+.about_paypal {
+    display: block;
+}
+
