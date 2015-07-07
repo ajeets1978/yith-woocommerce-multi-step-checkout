@@ -1,7 +1,7 @@
 === YITH WooCommerce Multi-step Checkout ===
 
 Contributors: yithemes
-Tags: woocommerce, multi-step checkout, yit, yith, yithemes
+Tags: woocommerce, multi-step checkout, woocommerce multistep checkout, woocommerce checkout, shop checkout, multistep, multi step, multi-step, wc, wc checkout, wc multi-step checkout, wc multistep checkout, yit, yith, yithemes
 Requires at least: 4.0
 Tested up to: 4.2.2
 Stable tag: 1.0.0
