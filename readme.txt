@@ -16,7 +16,7 @@ Do you know benefits of a multi-step checkout page in an e-commerce? Your custom
 
 Main Feature:
 
-It splits default WooCommerce checkout page into multiple consecutive steps
+It splits default WooCommerce checkout page into multiple consecutive steps.
 
 == Installation ==
 
