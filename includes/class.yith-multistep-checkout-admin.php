@@ -43,22 +43,22 @@ if ( ! class_exists( 'YITH_Multistep_Checkout_Admin' ) ) {
         /**
          * @var bool Show the premium landing page
          */
-        public $show_premium_landing = false;
+        public $show_premium_landing = true;
 
          /**
          * @var string Official plugin documentation
          */
-        protected $_official_documentation = '' ;
+        protected $_official_documentation = 'http://yithemes.com/docs-plugins/yith-woocommerce-multi-step-checkout/' ;
 
         /**
          * @var string Official plugin landing page
          */
-        protected $_premium_landing = '' ;
+        protected $_premium_landing = 'https://yithemes.com/themes/plugins/yith-woocommerce-multi-step-checkout/' ;
 
                 /**
          * @var string Official plugin landing page
          */
-        protected $_premium_live = '' ;
+        protected $_premium_live = 'http://plugins.yithemes.com/yith-woocommerce-multi-step-checkout' ;
 
         /**
          * Construct

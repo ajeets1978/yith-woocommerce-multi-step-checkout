@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Multi-step Checkout\n"
-"POT-Creation-Date: 2015-07-01 11:47+0100\n"
+"POT-Creation-Date: 2015-07-22 15:16+0100\n"
 "PO-Revision-Date: 2015-04-20 10:10+0100\n"
 "Last-Translator: \n"
 "Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
@@ -19,15 +19,15 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: plugin-fw\n"
 
-#: includes/class.yith-multistep-checkout-admin.php:107
+#: includes/class.yith-multistep-checkout-admin.php:92
 msgid "Multi-step Checkout"
 msgstr ""
 
-#: includes/class.yith-multistep-checkout-admin.php:110
+#: includes/class.yith-multistep-checkout-admin.php:95
 msgid "Settings"
 msgstr ""
 
-#: includes/class.yith-multistep-checkout-admin.php:115
+#: includes/class.yith-multistep-checkout-admin.php:100
 msgid "Premium Version"
 msgstr ""
 
@@ -35,7 +35,7 @@ msgstr ""
 msgctxt "Alert Message: WooCommerce require"
 msgid ""
 "YITH WooCommerce Multi-step Chekcout is enabled but not effective. It "
-"requires Woocommerce in order to work."
+"requires WooCommerce in order to work."
 msgstr ""
 
 #: panel/settings-options.php:21
@@ -49,8 +49,8 @@ msgid "Enable Multi-step Checkout"
 msgstr ""
 
 #: panel/settings-options.php:30
-msgctxt "Admin option: Enable plugin description"
-msgid "Check this option to enable the plugin features"
+msgctxt "Admin option description: Enable plugin"
+msgid "Check this option to enable plugin features"
 msgstr ""
 
 #: templates/woocommerce/checkout/form-checkout.php:28
@@ -62,41 +62,41 @@ msgid "Previous"
 msgstr ""
 
 #: templates/woocommerce/checkout/form-checkout.php:30
-msgctxt "Checkout: user time-line"
+msgctxt "Checkout: user timeline"
 msgid "Login"
 msgstr ""
 
 #: templates/woocommerce/checkout/form-checkout.php:31
-msgctxt "Checkout: user time-line"
+msgctxt "Checkout: user timeline"
 msgid "Billing"
 msgstr ""
 
 #: templates/woocommerce/checkout/form-checkout.php:32
-msgctxt "Checkout: user time-line"
+msgctxt "Checkout: user timeline"
 msgid "Shipping"
 msgstr ""
 
 #: templates/woocommerce/checkout/form-checkout.php:33
-msgctxt "Checkout: user time-line"
+msgctxt "Checkout: user timeline"
 msgid "Order Info"
 msgstr ""
 
 #: templates/woocommerce/checkout/form-checkout.php:34
-msgctxt "Checkout: user time-line"
+msgctxt "Checkout: user timeline"
 msgid "Payment Info"
 msgstr ""
 
-#: templates/woocommerce/checkout/form-checkout.php:58
+#: templates/woocommerce/checkout/form-checkout.php:68
 msgid ""
 "If you have shopped with us before, please enter your details in the boxes "
 "below. If you are a new customer please proceed to the Billing &amp; "
 "Shipping section."
 msgstr ""
 
-#: templates/woocommerce/checkout/form-checkout.php:69
+#: templates/woocommerce/checkout/form-checkout.php:79
 msgid "You must be logged in to checkout."
 msgstr ""
 
-#: templates/woocommerce/checkout/form-checkout.php:96
+#: templates/woocommerce/checkout/form-checkout.php:106
 msgid "Your order"
 msgstr ""
