@@ -2,7 +2,6 @@
 $i = 0;
 $with_icon = 'icon' == get_option( 'yith_wcms_timeline_step_count_type' ) && 'text' != $style ? true : false;
 $image_class = apply_filters( 'yith_wcms_timeline_icon_class', '' );
-$image_size = YITH_Multistep_Checkout()->sizes;
 ?>
 <ul id="checkout_timeline" class="woocommerce_checkout_timeline <?php echo $display ?> <?php echo $style ?>">
     <?php if( ! $is_user_logged_in ) : ?>
