@@ -73,7 +73,7 @@ if ( ! class_exists( 'YITH_Multistep_Checkout_Frontend' ) ) {
             $script = apply_filters( 'yith_wcms_main_script', 'multistep.js' );
             $script = function_exists( 'yit_load_js_file' ) ? yit_load_js_file( $script ) : str_replace( '.js', '.min.js', $script );
 
-            wp_register_script( 'yith-wcms-step', YITH_WCMS_ASSETS_URL . 'js/' . $script, array( 'wc-checkout' ), '1.0.0', true );
+            wp_register_script( 'yith-wcms-step', YITH_WCMS_ASSETS_URL . 'js/' . $script, array( 'wc-checkout' ), '1.0.1', true );
             wp_enqueue_script( 'yith-wcms-step' );
 
             do_action( 'yith_wcms_enqueue_scripts' );
