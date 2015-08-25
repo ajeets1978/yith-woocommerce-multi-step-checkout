@@ -46,7 +46,7 @@ $timeline_args = array(
 
 $timeline_template = apply_filters( 'yith_wcms_timeline_template', 'checkout-timeline.php' );
 
-$enable_nav_button = 'yes' == get_option( 'yith_wcms_nav_buttons_enabled' ) ? true : false;
+$enable_nav_button = 'yes' == get_option( 'yith_wcms_nav_buttons_enabled', 'yes' ) ? true : false;
 
 //load timeline template
 yith_wcms_checkout_timeline( $timeline_template, $timeline_args );

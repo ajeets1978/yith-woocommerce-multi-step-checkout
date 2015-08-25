@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: woocommerce, multi-step checkout, woocommerce multistep checkout, woocommerce checkout, shop checkout, multistep, multi step, multi-step, wc, wc checkout, wc multi-step checkout, wc multistep checkout, yit, yith, yithemes
 Requires at least: 4.0
-Tested up to: 4.2.4
-Stable tag: 1.0.5
+Tested up to: 4.3
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -46,6 +46,10 @@ This plugin has been realised using only WooCommerce standard templates. If your
 
 == Changelog ==
 
+= 1.0.6 = 
+
+* Fixed: Navigation button issue with WooCommerce 2.4 and Wordpress 4.3
+
 = 1.0.5 =
 
 * Added: Support to WooCommerce 2.4
@@ -79,6 +83,10 @@ If you have created your own language pack, or have an update for an existing on
 [use](http://yithemes.com/contact/ "Your Inspiration Themes"), so we can bundle it into YITH WooCommerce Multi-step Checkout.
 
 == Upgrade notice ==
+
+= 1.0.6 = 
+
+Navigation button issue with WooCommerce 2.4 and Wordpress 4.3
 
 = 1.0.0 =
 
