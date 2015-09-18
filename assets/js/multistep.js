@@ -14,6 +14,27 @@
 
     $('body').on( 'updated_checkout', function(){
         steps[4] = $('#payment');
+
+        $('#payment').find( 'input[name=payment_method]' ).on( 'click', function() {
+            if ($('.payment_methods input.input-radio').length > 1) {
+                var target_payment_box = $('div.payment_box.' + $(this).attr('ID'));
+                if ($(this).is(':checked') && !target_payment_box.is(':visible')) {
+                    $('div.payment_box').filter(':visible').slideUp(250);
+
+                    if ($(this).is(':checked')) {
+                        $('div.payment_box.' + $(this).attr('ID')).slideDown(250);
+                    }
+                }
+            } else {
+                $('div.payment_box').show();
+            }
+
+            if ($(this).data('order_button_text')) {
+                $('#place_order').val($(this).data('order_button_text'));
+            } else {
+                $('#place_order').val($('#place_order').data('value'));
+            }
+        });
     } );
 
     $('body').on('yith_wcms_select2', function (event) {
@@ -39,7 +60,7 @@
     });
 
     $('body').trigger('yith_wcms_select2');
-
+    
     form_actions.find('.button.prev').add('.button.next').on( 'click', function(e){
         var t               = $(this),
             timeline        = $('#checkout_timeline'),

@@ -3,8 +3,8 @@
 Contributors: yithemes
 Tags: woocommerce, multi-step checkout, woocommerce multistep checkout, woocommerce checkout, shop checkout, multistep, multi step, multi-step, wc, wc checkout, wc multi-step checkout, wc multistep checkout, yit, yith, yithemes
 Requires at least: 4.0
-Tested up to: 4.3
-Stable tag: 1.0.6
+Tested up to: 4.3.1
+Stable tag: 1.0.7
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -45,6 +45,11 @@ This plugin has been realised using only WooCommerce standard templates. If your
 9 Admin: Enable Multi-step Checkout
 
 == Changelog ==
+
+= 1.0.7 =
+
+* Added: Italian translation (By Lidia Cirrone)
+* Fixed: jQuery Issue With Payment Methods
 
 = 1.0.6 = 
 

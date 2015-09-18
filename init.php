@@ -5,7 +5,7 @@ Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-multi-step-check
 Description: YITH WooCommerce Multi-step checkout
 Author: yithemes
 Text Domain: yith_wcms
-Version: 1.0.6
+Version: 1.0.7
 Author URI: http://yithemes.com/
 */
 
@@ -43,7 +43,7 @@ if ( ! function_exists( 'WC' ) ) {
 }
 
 /* === DEFINE === */
-! defined( 'YITH_WCMS_VERSION' )            && define( 'YITH_WCMS_VERSION', '1.0.6' );
+! defined( 'YITH_WCMS_VERSION' )            && define( 'YITH_WCMS_VERSION', '1.0.7' );
 ! defined( 'YITH_WCMS_FREE_INIT' )          && define( 'YITH_WCMS_FREE_INIT', plugin_basename( __FILE__ ) );
 ! defined( 'YITH_WCMS_SLUG' )               && define( 'YITH_WCMS_SLUG', 'yith-woocommerce-multi-step-checkout' );
 ! defined( 'YITH_WCMS_FILE' )               && define( 'YITH_WCMS_FILE', __FILE__ );
