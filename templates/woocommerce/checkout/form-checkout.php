@@ -49,7 +49,7 @@ $timeline_template = apply_filters( 'yith_wcms_timeline_template', 'checkout-tim
 $enable_nav_button = 'yes' == get_option( 'yith_wcms_nav_buttons_enabled', 'yes' ) ? true : false;
 
 //load timeline template
-yith_wcms_checkout_timeline( $timeline_template, $timeline_args );
+function_exists( 'yith_wcms_checkout_timeline' ) && yith_wcms_checkout_timeline( $timeline_template, $timeline_args );
 
 wc_print_notices();
 

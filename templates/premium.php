@@ -254,7 +254,7 @@
                     <h2><?php _e('Custom layout','yith_wcms');?></h2>
                 </div>
                 <p>
-                    <?php echo sprintf(__('\Select your favourite %1$sstyle%2$s for your the steps of your checkout page and customise it in every detail thanks to the many options made available by thepremium version of the plugin.%3$sAnd in case %1$slabels%2$s associated to the steps were not what you need, you will be able to change them from plugin option panel. Useful, easy and quick!', 'yith_wcms'), '<b>', '</b>','<br>');?>
+                    <?php echo sprintf(__('Select your favourite %1$sstyle%2$s for your the steps of your checkout page and customise it in every detail thanks to the many options made available by thepremium version of the plugin.%3$sAnd in case %1$slabels%2$s associated to the steps were not what you need, you will be able to change them from plugin option panel. Useful, easy and quick!', 'yith_wcms'), '<b>', '</b>','<br>');?>
                 </p>
             </div>
             <div class="col-1">

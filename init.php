@@ -5,7 +5,7 @@ Plugin URI: http://yithemes.com/themes/plugins/yith-woocommerce-multi-step-check
 Description: YITH WooCommerce Multi-step checkout
 Author: yithemes
 Text Domain: yith_wcms
-Version: 1.0.7
+Version: 1.0.9
 Author URI: http://yithemes.com/
 */
 
@@ -43,7 +43,7 @@ if ( ! function_exists( 'WC' ) ) {
 }
 
 /* === DEFINE === */
-! defined( 'YITH_WCMS_VERSION' )            && define( 'YITH_WCMS_VERSION', '1.0.7' );
+! defined( 'YITH_WCMS_VERSION' )            && define( 'YITH_WCMS_VERSION', '1.0.9' );
 ! defined( 'YITH_WCMS_FREE_INIT' )          && define( 'YITH_WCMS_FREE_INIT', plugin_basename( __FILE__ ) );
 ! defined( 'YITH_WCMS_SLUG' )               && define( 'YITH_WCMS_SLUG', 'yith-woocommerce-multi-step-checkout' );
 ! defined( 'YITH_WCMS_FILE' )               && define( 'YITH_WCMS_FILE', __FILE__ );
@@ -53,6 +53,10 @@ if ( ! function_exists( 'WC' ) ) {
 ! defined( 'YITH_WCMS_TEMPLATE_PATH' )      && define( 'YITH_WCMS_TEMPLATE_PATH', YITH_WCMS_PATH . 'templates/' );
 ! defined( 'YITH_WCMS_WC_TEMPLATE_PATH' )   && define( 'YITH_WCMS_WC_TEMPLATE_PATH', YITH_WCMS_PATH . 'templates/woocommerce/' );
 ! defined( 'YITH_WCMS_OPTIONS_PATH' )       && define( 'YITH_WCMS_OPTIONS_PATH', YITH_WCMS_PATH . 'panel' );
+
+/* Plugin Framework Version Check */
+! function_exists( 'yit_maybe_plugin_fw_loader' ) && require_once( YITH_WCMS_PATH . 'plugin-fw/init.php' );
+yit_maybe_plugin_fw_loader( YITH_WCMS_PATH  );
 
 /* Load YWCM text domain */
 load_plugin_textdomain( 'yith_wcms', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );

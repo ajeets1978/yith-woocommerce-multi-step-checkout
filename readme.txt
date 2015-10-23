@@ -4,7 +4,7 @@ Contributors: yithemes
 Tags: woocommerce, multi-step checkout, woocommerce multistep checkout, woocommerce checkout, shop checkout, multistep, multi step, multi-step, wc, wc checkout, wc multi-step checkout, wc multistep checkout, yit, yith, yithemes
 Requires at least: 4.0
 Tested up to: 4.3.1
-Stable tag: 1.0.7
+Stable tag: 1.0.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -31,7 +31,6 @@ Is the plugin compatible with my theme?
 This plugin has been realised using only WooCommerce standard templates. If your theme is using WooCommerce standard hooks and actions, the plugin will work well.
 
 
-
 == Screenshots ==
 
 1. Step 1: Login
@@ -45,6 +44,15 @@ This plugin has been realised using only WooCommerce standard templates. If your
 9 Admin: Enable Multi-step Checkout
 
 == Changelog ==
+
+= 1.0.9 =
+
+* Added: Spanish translation (by Daniel Aparisi)
+* Tweak: Performance improved with new plugin core 2.0
+
+= 1.0.8 =
+
+* Fixed: Fatal error on form-checkout.php template if overwrite by theme
 
 = 1.0.7 =
 
@@ -83,6 +91,7 @@ This plugin has been realised using only WooCommerce standard templates. If your
 
 = Available Languages =
 * English (Default)
+* Spanish
 
 If you have created your own language pack, or have an update for an existing one, you can send [gettext PO and MO file](http://codex.wordpress.org/Translating_WordPress "Translating WordPress")
 [use](http://yithemes.com/contact/ "Your Inspiration Themes"), so we can bundle it into YITH WooCommerce Multi-step Checkout.

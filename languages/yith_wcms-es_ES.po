@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: YITH WooCommerce Multi-step Checkout\n"
-"POT-Creation-Date: 2015-09-22 10:18+0200\n"
-"PO-Revision-Date: 2015-09-22 10:38+0200\n"
+"POT-Creation-Date: 2015-10-14 17:00+0200\n"
+"PO-Revision-Date: 2015-10-16 12:57+0200\n"
 "Last-Translator: \n"
 "Language-Team: Your Inspiration Themes <plugins@yithemes.com>\n"
-"Language: it_IT\n"
+"Language: es_ES\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.4\n"
+"X-Generator: Poedit 1.8.5\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;__ngettext_noop:1,2;_n_noop:1,2;"
 "_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ..\n"
@@ -24,11 +24,11 @@ msgstr "Multi-step Checkout"
 
 #: includes/class.yith-multistep-checkout-admin.php:95
 msgid "Settings"
-msgstr "Impostazioni"
+msgstr "Configuración"
 
 #: includes/class.yith-multistep-checkout-admin.php:100
 msgid "Premium Version"
-msgstr "Versione Premium"
+msgstr "Versión Premium"
 
 #: init.php:34
 msgctxt "Alert Message: WooCommerce require"
@@ -36,23 +36,23 @@ msgid ""
 "YITH WooCommerce Multi-step Chekcout is enabled but not effective. It "
 "requires WooCommerce in order to work."
 msgstr ""
-"YITH WooCommerce Multi-step Checkout è abilitato ma non attivo. Devi aver "
-"installato WooCommerce perché questo possa funzionare correttamente."
+"YITH WooCommerce Multi-step Checkout está habilitado pero no es eficaz. "
+"Requiere WooCommerce con el fin de trabajar."
 
 #: panel/settings-options.php:21
 msgctxt "Panel: page title"
 msgid "General settings"
-msgstr "Impostazioni generali"
+msgstr "Configuración general"
 
 #: panel/settings-options.php:28
 msgctxt "Admin option: Enable plugin"
 msgid "Enable Multi-step Checkout"
-msgstr "Abilita Multi-step Checkout"
+msgstr "Habilitar Multi-step Checkout"
 
 #: panel/settings-options.php:30
 msgctxt "Admin option description: Enable plugin"
 msgid "Check this option to enable plugin features"
-msgstr "Spunta questa casella per abilitare le funzioni del plugin"
+msgstr "Marquar esta opción para habilitar las características del plugin"
 
 #: templates/premium.php:223 templates/premium.php:333
 #, php-format
@@ -60,24 +60,24 @@ msgid ""
 "Upgrade to %1$spremium version%2$s of %1$sYITH WooCommerce Multi-step "
 "Checkout%2$s to benefit from all features!"
 msgstr ""
-"Aggiorna alla %1$sversione premium%2$s di %1$sYITH WooCommerce Multi-step "
-"Checkout%2$s per usufruire di tutte le funzionalità!"
+"Actualizar a la versión %1$spremium%2$s de %1$sYITH WooCommerce Multi-step "
+"Checkout%2$s para beneficiar de todas las características!"
 
 #: templates/premium.php:226 templates/premium.php:336
 msgid "UPGRADE"
-msgstr "AGGIORNA"
+msgstr "ACTUALIZAR"
 
 #: templates/premium.php:227 templates/premium.php:337
 msgid "to the premium version"
-msgstr "alla versione premium"
+msgstr "a la versión premium"
 
 #: templates/premium.php:233
 msgid "Premium Features"
-msgstr "Funzionalità premium"
+msgstr "Opciones Premium"
 
 #: templates/premium.php:241
 msgid "Display styles"
-msgstr "Stili di visualizzazione"
+msgstr "Mostrar estilos"
 
 #: templates/premium.php:244
 #, php-format
@@ -88,16 +88,15 @@ msgid ""
 "%1$svertical display%2$s if you want to show all steps as if they were all "
 "elements belonging to a sidebar."
 msgstr ""
-"4 diversi modi di dare una forma ad ogni step del processo di pagamento sul "
-"tuo shop. %1$s4 layout differenti%2$s per darti la possibilità di trovare la "
-"soluzione a te più gradita e più congeniale alla grafica delle tue pagine."
-"%3$sMa non finisce qui! Opta per la %1$svisualizzazione verticale%2$s se "
-"vuoi mostrare tutti gli step del processo come fossero elementi di una "
-"sidebar nella pagina."
+"4 tipos diferentes para dar forma a los pasos de pago y envío de tu sitio. "
+"%1$s4 Diferentes layout%2$s para encontrar la mejor solución y el más "
+"adecuado estilo gráfico de tu páginas.%3$sPero, esto no es todo! Optas por "
+"%1$sla visualización vertical%2$s si deseas mostrar todos los pasos como si "
+"fueran todos los elementos que pertenecen a una barra lateral."
 
 #: templates/premium.php:254
 msgid "Custom layout"
-msgstr "Layout personalizzabile"
+msgstr "Layout personalizado"
 
 #: templates/premium.php:257
 #, php-format
@@ -108,15 +107,15 @@ msgid ""
 "associated to the steps were not what you need, you will be able to change "
 "them from plugin option panel. Useful, easy and quick!"
 msgstr ""
-"Seleziona lo %1$sstile%2$s preferito per mostrare gli step del processo di "
-"pagamento, e personalizzalo interamente attraverso le numerose opzioni che "
-"la versione premium del plugin ti mette a disposizione.%3$sE nel caso le "
-"%1$setichette%2$s associate agli step non ti soddisfino, potrai facilmente "
-"modificarle dal pannello opzioni del plugin. Utile, facile, veloce!"
+"Seleccionas tu %1$sestilo$2$s favorito para los pasos de tu página de pago y "
+"personalízalo en cada detalle gracias a las muchas opciones disponibles por "
+"la versión premium del plugin.%3$sY en caso no necesitas de %1$setiquetas"
+"%2$s asociadas a los pasos, puedes cambiarlas desde panel de opciones. Útil, "
+"fácil y rápido!"
 
 #: templates/premium.php:273
 msgid "Icon or number"
-msgstr "Icona o numero"
+msgstr "Icono o número"
 
 #: templates/premium.php:276
 #, php-format
@@ -127,15 +126,15 @@ msgid ""
 "Another way to %1$smake your checkout page more intuitive%2$s for your "
 "customers."
 msgstr ""
-"A meno che tu non abbia optato per lo stile testuale, ogni step del tuo "
-"processo sarà identificato da un numero o da un’icona. In quest’ultimo caso "
-"potrai scegliere di utilizzare le icone che il plugin ti mette a "
-"disposizione o caricare un’icona personalizzata. Un altro modo di "
-"%1$srendere più intuitivo il processo di pagamento%2$s per i tuoi utenti."
+"A menos que has elegido el estilo textual, cada paso de tu pago y envío "
+"estará marcado por un número distintivo o icono. En este último caso, puedes "
+"utilizar los iconos disponibles del plugin o subir tus propios iconos "
+"personalizados. Otra forma de %1$shacer tu página de pago más intuitiva%2$s "
+"para tus clientes."
 
 #: templates/premium.php:286
 msgid "Ajax validation"
-msgstr "Validazione AJAX"
+msgstr "Validación con ajax"
 
 #: templates/premium.php:289
 #, php-format
@@ -146,15 +145,15 @@ msgid ""
 "following step only if they have first entered all information correctly in "
 "the previous step."
 msgstr ""
-"Chiunque abbia voglia di portare a termine un acquisto sul tuo shop sarà, "
-"per ovvi motivi, obbligato ad inserire determinati dati relativi al suo "
-"profilo o il metodo di pagamento. Attiva la %1$svalidazione AJAX%2$s se non "
-"vuoi che i tuoi utenti accedano allo step successivo senza aver inserito "
-"correttamente le informazioni richieste in quello attivo."
+"Cualquier persona dispuesta a comprar en tu tienda tendrá que añadir algunos "
+"datos específicos del perfil y del método de pago preferido. Activas %1$s la "
+"validación con ajax %2$s si deseas que tus clientes pueden acceder al "
+"siguiente paso sólo si han entrado por primero todas las informaciones "
+"correctas en el paso anterior."
 
 #: templates/premium.php:305
 msgid "Navigation buttons"
-msgstr "Pulsanti di avanzamento"
+msgstr "Botones de navegación"
 
 #: templates/premium.php:308
 #, php-format
@@ -165,15 +164,15 @@ msgid ""
 "the %1$sstate of process%2$s will be visible and each step will be "
 "accessible from the timeline."
 msgstr ""
-"I pulsanti di navigazione possono aiutare l’utente ad intuire che si trova "
-"all’interno di un processo di pagamento composto da più step.%3$sMa nel caso "
-"tu li ritenga superflui, niente ti vieta di nasconderli utilizzando "
-"l’apposita opzione. %1$sL’avanzamento del processo%2$s e l’accesso ai vari "
-"step sarà comunque possibile attraverso la classica sequenza degli step."
+"Los botones de navegación explican los usuarios que están en un proceso de "
+"compra hecha con más de un paso.%3$sSin embargo, si piensas que son "
+"superfluos, nada te impides utilizar la opción específica para ocultarlos. "
+"De todos modos, el %1$sestado del proceso%2$s será visible y cada paso será "
+"accesible desde la línea de tiempo."
 
 #: templates/premium.php:318
 msgid "“My account” and “Order received” pages"
-msgstr "Pagine “Il mio account” e “Ordine ricevuto”"
+msgstr "Páginas \"Mi cuenta\" y \"Orden recibida\""
 
 #: templates/premium.php:321
 #, php-format
@@ -183,44 +182,44 @@ msgid ""
 "redirected after completing purchase.%3$s%1$sYITH WooCommerce Multi-step "
 "Checkout%2$s has thought of everything!"
 msgstr ""
-"Una sezione del tuo pannello opzioni dedicata alla personalizzazione dello "
-"schema colori della pagina “Il mio account” e “Ordine ricevuto”, ovvero la "
-"pagina a cui l’utente viene reindirizzato una volta portato a termine "
-"l’acquisto.%3$s%1$sYITH WooCommerce Multi-step Checkout%2$s ha proprio "
-"pensato a tutto!"
+"Una sección de su panel de opciones dedicada a la personalización de los "
+"patrones de color de las páginas \"Mi cuenta\" y \"Orden recibido\", o de "
+"las páginas donde los usuarios son redirigidos después de completar la "
+"compra.%3$s%1$sYITH WooCommerce Multi-step Checkout%2$s tiene todo lo que "
+"necesitas!"
 
 #: templates/woocommerce/checkout/form-checkout.php:28
 msgid "Next"
-msgstr "Avanti"
+msgstr "Siguiente"
 
 #: templates/woocommerce/checkout/form-checkout.php:29
 msgid "Previous"
-msgstr "Indietro"
+msgstr "Anterior"
 
 #: templates/woocommerce/checkout/form-checkout.php:30
 msgctxt "Checkout: user timeline"
 msgid "Login"
-msgstr "Login"
+msgstr "Iniciar sesión"
 
 #: templates/woocommerce/checkout/form-checkout.php:31
 msgctxt "Checkout: user timeline"
 msgid "Billing"
-msgstr "Fatturazione"
+msgstr "Facturación"
 
 #: templates/woocommerce/checkout/form-checkout.php:32
 msgctxt "Checkout: user timeline"
 msgid "Shipping"
-msgstr "Spedizione"
+msgstr "Envío"
 
 #: templates/woocommerce/checkout/form-checkout.php:33
 msgctxt "Checkout: user timeline"
 msgid "Order Info"
-msgstr "Ordine"
+msgstr "Información de pedido"
 
 #: templates/woocommerce/checkout/form-checkout.php:34
 msgctxt "Checkout: user timeline"
 msgid "Payment Info"
-msgstr "Pagamento"
+msgstr "Información de pago"
 
 #: templates/woocommerce/checkout/form-checkout.php:68
 msgid ""
@@ -228,14 +227,28 @@ msgid ""
 "below. If you are a new customer please proceed to the Billing &amp; "
 "Shipping section."
 msgstr ""
-"Se hai già fatto acquisti da noi, per favore, inserisci i dettagli nelle "
-"sezioni sottostanti. Se sei un nuovo cliente, procedi alla sezione "
-"Fatturazione e Spedizione."
+"Si has comprado con nosotros antes, por favor, introduces tus datos en los "
+"campos de abajo. Si eres un nuevo cliente, por favor procedes a la sección "
+"de Facturación &amp; Envío."
 
 #: templates/woocommerce/checkout/form-checkout.php:79
 msgid "You must be logged in to checkout."
-msgstr "Devi effettuare il login per procedere con l'acquisto."
+msgstr "Tienes que estar logueado para enviar la cesta."
 
 #: templates/woocommerce/checkout/form-checkout.php:106
 msgid "Your order"
-msgstr "Il tuo ordine"
+msgstr "Tu pedido"
+
+#~ msgid ""
+#~ "\\Select your favourite %1$sstyle%2$s for your the steps of your checkout "
+#~ "page and customise it in every detail thanks to the many options made "
+#~ "available by thepremium version of the plugin.%3$sAnd in case %1$slabels"
+#~ "%2$s associated to the steps were not what you need, you will be able to "
+#~ "change them from plugin option panel. Useful, easy and quick!"
+#~ msgstr ""
+#~ "\\Seleccione su %1$sestilo%2$s favorito para los pasos de su página de "
+#~ "pago y personalizarlo en cada detalle gracias a las muchas opciones "
+#~ "disponibles por la versión premium del plugin.%3$sY en caso de "
+#~ "%1$setiquetas%2$s asociados a los pasos no son lo que necesita, usted "
+#~ "será capaz de cambiarlos de plugin de panel de opciones. Útil, fácil y "
+#~ "rápido!"

@@ -88,7 +88,7 @@ if ( ! class_exists( 'YITH_Multistep_Checkout' ) ) {
 			$this->_require( $require );
 
             /* === Load Plugin Framework === */
-			add_action( 'after_setup_theme', array( $this, 'plugin_fw_loader' ), 1 );
+			add_action( 'plugins_loaded', array( $this, 'plugin_fw_loader' ), 15 );
 
             /* == Plugins Init === */
             add_action( 'init', array( $this, 'init' ) );
@@ -130,7 +130,7 @@ if ( ! class_exists( 'YITH_Multistep_Checkout' ) ) {
 			}
 		}
 
-        /**
+		/**
 		 * Load plugin framework
 		 *
 		 * @author Andrea Grillo <andrea.grillo@yithemes.com>
@@ -138,9 +138,13 @@ if ( ! class_exists( 'YITH_Multistep_Checkout' ) ) {
 		 * @return void
 		 */
 		public function plugin_fw_loader() {
-			if ( ! defined( 'YIT' ) || ! defined( 'YIT_CORE_PLUGIN' ) ) {
-                require_once( YITH_WCMS_PATH . 'plugin-fw/yit-plugin.php' );
-            }
+			if ( !defined( 'YIT_CORE_PLUGIN' ) ) {
+				global $plugin_fw_data;
+				if ( !empty( $plugin_fw_data ) ) {
+					$plugin_fw_file = array_shift( $plugin_fw_data );
+					require_once( $plugin_fw_file );
+				}
+			}
 		}
 
         /**
