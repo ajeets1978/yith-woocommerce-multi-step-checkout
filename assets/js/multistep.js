@@ -1,7 +1,8 @@
 /* YITH WooCommerce Multi Step Checkout */
 
 (function($){
-    var login               = $('#checkout_login'),
+    var $body               = $('body'),
+        login               = $('#checkout_login'),
         billing             = $('#customer_billing_details'),
         shipping            = $('#customer_shipping_details'),
         order               = $('#order_review'),
@@ -10,10 +11,13 @@
         coupon              = $('#checkout_coupon'),
         timeline            = $(),
         steps               = new Array(login, billing, shipping, order, payment),
-        is_user_logged_in   = $('body').hasClass('logged-in');
+        is_user_logged_in   = $body.hasClass('logged-in');
 
-    $('body').on( 'updated_checkout', function(){
+    $body.on( 'updated_checkout yith_wcms_myaccount_order_pay', function(e){
         steps[4] = $('#payment');
+         if(e.type == 'updated_checkout' ) {
+            steps[4] = $('#payment');
+        }
 
         $('#payment').find( 'input[name=payment_method]' ).on( 'click', function() {
             if ($('.payment_methods input.input-radio').length > 1) {
@@ -37,7 +41,11 @@
         });
     } );
 
-    $('body').on('yith_wcms_select2', function (event) {
+    if ($body.hasClass('woocommerce-order-pay')) {
+        $body.trigger('yith_wcms_myaccount_order_pay');
+    }
+
+    $body.on('yith_wcms_select2', function (event) {
         if ($().select2) {
             var wc_country_select_select2 = function () {
                 $('select.country_select, select.state_select').each(function () {
@@ -53,14 +61,14 @@
 
             wc_country_select_select2();
 
-            $('body').bind('country_to_state_changed', function () {
+            $body.bind('country_to_state_changed', function () {
                 wc_country_select_select2();
             });
         }
     });
 
-    $('body').trigger('yith_wcms_select2');
-    
+    $body.trigger('yith_wcms_select2');
+
     form_actions.find('.button.prev').add('.button.next').on( 'click', function(e){
         var t               = $(this),
             timeline        = $('#checkout_timeline'),

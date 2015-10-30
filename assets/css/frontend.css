@@ -27,11 +27,11 @@ form.checkout.woocommerce-checkout {
     margin-bottom: 15px;
 }
 
-#customer_shipping_details,
-#order_review,
-#payment,
-#customer_billing_details.not-logged-in,
-#checkout_coupon {
+body.woocommerce-checkout #customer_shipping_details,
+body.woocommerce-checkout:not(.woocommerce-order-pay) #order_review,
+body.woocommerce-checkout:not(.woocommerce-order-pay) #payment,
+body.woocommerce-checkout #customer_billing_details.not-logged-in,
+body.woocommerce-checkout #checkout_coupon {
     display: none;
 }
 
